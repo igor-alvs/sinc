@@ -4,7 +4,7 @@ import pyautogui as pg
 import time
 
 navegador = webdriver.Chrome()
-dados_excel = pd.read_csv("Clientes.csv")
+#dados_excel = pd.read_csv("Clientes.csv")
 magalu = "https://www.magazineluiza.com.br/".replace('"',"")
 magalu_x = '//*[@id="input-search"]'.replace("'","")
 amazon = "https://www.amazon.com.br/ ".replace('"',"")
@@ -19,6 +19,6 @@ for i in range(len(links)):
     botao.click()
     botao.send_keys("S22 Ultra")
     pg.press("enter")
-    time.sleep(1)
+    time.sleep(3)
 #pg.press("win")
 
