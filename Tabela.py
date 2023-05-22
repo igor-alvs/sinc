@@ -23,3 +23,4 @@ for i in range(len(links)):
 #pg.press("win")
 
 # git push
+# git pull
