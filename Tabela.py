@@ -24,3 +24,4 @@ for i in range(len(links)):
 
 # git push
 # git pull
+# git fetch
